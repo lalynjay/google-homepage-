@@ -1,23 +1,55 @@
 .left {
-    text-align: left;
-    padding-right: 50px;
+    float: left;
+    padding: 0 20px 0 10px;
 }
 .right {
-    text-align: right;
-    padding-left: 50px;
+    float: right;
+    padding: 0 20px 0 10px;
 }
 .header {
     padding: 20px 20px 100px 20px;
 }
 .google {
     text-align:  center;
+    margin-bottom: 30px;
 }
-.bar .buttons {
+.buttons {
     text-align:  center;
+    margin: auto;
+    width: 50%;
+    margin-top: 20px;
+    padding: 0 25px 0 25px;
+    font-size: 20px;
+    height: 25px;
+    margin: 5px 0 5 px 0;
+
 }
 .footer {
+    
     align-self: flex-end;
+    background-color: rgba(233, 219, 219, 0.932);
+    vertical-align: bottom;
+    width: 100%;
+    height: 20%;
+    padding: 20px 0 20px 0;
 }
 .bottom{
     padding:10% 50% 10% 50%;
+}
+.dl {
+    
+    background-color: rgba(233, 219, 219, 0.932);
+    padding: 0 20px 0 10px;
+}
+.dr {
+    background-color: rgba(233, 219, 219, 0.932);
+    text-align: right;
+    padding: 0 20px 0 10px;
+}
+.above {
+    margin: auto;
+    text-align: center;
+}
+a {
+    padding: 0 20px 0 10px;
 }
